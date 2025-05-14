@@ -7,6 +7,7 @@ int main () {
     cin >> i;
     cout << "Entre un autre nombre de repetition: ";
     cin >> n;
+    n--;
     n += i;
     for (i; i <= n; i++) {
         cout << i << " ";
